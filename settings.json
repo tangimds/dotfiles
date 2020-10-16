@@ -1,0 +1,50 @@
+{
+    "explorer.confirmDelete": false,
+    "fileHeaderComment.parameter":{
+        "*":{
+            "commentbegin": "/*",
+            "commentprefix": "*",
+            "commentend": "*/"
+        }
+    },
+    "fileHeaderComment.template": {
+        "*":[
+            "${commentbegin}",
+            "${commentprefix} Created on ${datetime} ",
+            "${commentprefix} Copyright © ${year} - Mendes Tangi",
+            "${commentend}"
+        ],
+        "separator":[
+            "// ***************************************************************************************************************************************"
+        ]
+    },
+    "window.restoreWindows": "all",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.autoIndent": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "files.associations": {
+        "*.twig": "php"
+    },
+    "todo-tree.tree.showScanModeButton": false,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.chktex.path": "/Library/TeX/texbin/chktex",
+    "latex-workshop.latexindent.path": "/Library/TeX/texbin/latexindent",
+    "latex-workshop.synctex.path": "/Library/TeX/texbin/synctex",
+    "editor.formatOnSave": true,
+    "workbench.colorTheme": "Ayu Mirage",
+    "editor.tabSize": 2,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "indentRainbow.colors": [
+        "rgba(200,200,255,0.02)",
+        "rgba(255,255,255,0)",
+    ],
+}
