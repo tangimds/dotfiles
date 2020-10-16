@@ -1,0 +1,42 @@
+#!/bin/sh
+
+PACKAGES=(
+  aaron-bond.better-comments
+  abusaidm.html-snippets
+  adpyke.codesnap
+  arthurwang.vsc-prolog
+  bmewburn.vscode-intelephense-client
+  burkeholland.simple-react-snippets
+  CoenraadS.bracket-pair-colorizer
+  Dart-Code.dart-code
+  Dart-Code.flutter
+  doi.fileheadercomment
+  eg2.tslint
+  EQuimper.react-native-react-redux
+  esbenp.prettier-vscode
+  formulahendry.auto-rename-tag
+  formulahendry.code-runner
+  GrapeCity.gc-excelviewer
+  Gruntfuggly.todo-tree
+  hackwaly.ocaml
+  hediet.vscode-drawio
+  helixquar.randomeverything
+  ikappas.phpcs
+  James-Yu.latex-workshop
+  Mikael.Angular-BeastCode
+  MS-CEINTL.vscode-language-pack-fr
+  ms-python.python
+  ms-vscode.cpptools
+  ms-vsliveshare.vsliveshare
+  msjsdiag.debugger-for-chrome
+  msjsdiag.vscode-react-native
+  naumovs.color-highlight
+  oderwat.indent-rainbow
+  PKief.material-icon-theme
+  sashaweiss.bracket-jumper
+  teabyii.ayu
+  Tyriar.lorem-ipsum
+  yzhang.markdown-all-in-one 
+)
+echo "Installing VSCODE Exxtension..."
+code --install-extension ${PACKAGES[@]}
