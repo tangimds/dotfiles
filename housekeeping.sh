@@ -6,7 +6,7 @@ sleep 5
 
 # Upgrade Brew Cask 
 echo "Updating brew cask"
-brew cask upgrade
+brew upgrade --cask
 sleep 5 
 
 
