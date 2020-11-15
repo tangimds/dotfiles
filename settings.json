@@ -47,4 +47,5 @@
         "rgba(200,200,255,0.02)",
         "rgba(255,255,255,0)",
     ],
+    "prettier.singleQuote": true,
 }
