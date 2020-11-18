@@ -75,21 +75,16 @@ curl -L https://raw.githubusercontent.com/tangimds/dotfiles/main/brew_tools.sh |
 curl -L https://raw.githubusercontent.com/tangimds/dotfiles/main/brewcask_apps.sh | sh
 ```
 
-## Install VSCode Extensions
+## Install VSCode (Extensions / Settings / Snippets / Themes / etc )
 
-- Run the following to install all extensions.
+- Install Visual Studio Code.
 
 ```shell
-curl -L  https://raw.githubusercontent.com/tangimds/dotfiles/main/vscode-extensions.sh | sh
+brew cask install visual-studio-code
 ```
 
-If the command fails, try Cmd + Shift + P and then type install and choose the
+- Install *Settings Sync* extension and login with Github account
 
-```
-Shell Command: Install 'code-insiders' command in PATH
-```
-
-and re-run the first command
 ---
 
 ## Keeping Things Updated
