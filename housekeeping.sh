@@ -1,27 +1,32 @@
 # Update brew 
+clear
 echo "$fg_bold[blue] Updating brew"
 brew update
 sleep 5 
 
 
-# Upgrade Brew Cask 
+# Upgrade Brew Cask
+clear
 echo "$fg_bold[blue] Updating brew cask"
 brew upgrade --cask
 sleep 5 
 
 
 # Check the local Homebrew installation for potential problems
+clear
 echo "$fg_bold[blue] Running brew docktor"
 brew doctor --verbose
 sleep 5
 
 #Remove stale lock files and outdated downloads for all formulae and casks, andremove old versions of installed formulae
+clear
 echo "$fg_bold[blue] running brew cleanup"
 brew cleanup -v
 sleep 5 
 
 
 # Brew show all outdated brew apps 
+clear
 echo "$fg_bold[blue] running brew outdated"
 brew outdated 
 sleep 5
