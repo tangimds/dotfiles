@@ -2,3 +2,7 @@ alfred
 basictex
 react-native-debugger
 vagrant
+alfred
+basictex
+react-native-debugger
+vagrant
