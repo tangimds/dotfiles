@@ -1,15 +1,24 @@
 # Onboarding New Macbook
 
-## Pre-requisites
+Follow the [dev-setup](https://github.com/tangimds/dotfiles/blob/main/dev-setup.md) roadmap  
+Find usefull commands [here](https://github.com/tangimds/dotfiles/blob/main/os-x-setup-commands.sh)
 
-- Copy zsh profile.
+
+## Keeping Things Updated
+
+- Laptop House keeping
 
 ```shell
-wget https://raw.githubusercontent.com/tangimds/dotfiles/main/.zshrc && \
-mv .zshrc ~/.zshrc
-source ~/.zshrc
+./housekeeping.sh
 ```
 
+- Update config .zshrc
+
+```shell
+./update.sh
+```
+
+---
 ## Configure Git Profile
 
 - Configure local Git profile
@@ -42,55 +51,3 @@ ssh-keygen -t rsa -b 2048 -f "id_rsa_github"
 ssh-keygen -t rsa -b 2048 -f "id_rsa_serv1"
 ```
 
----
-## Xcode CLI
-```shell
-xcode-select --install
-```
-
-## Homebrew & Homebrew Cask
-
-- Install Homebrew for applications.
-
-```shell
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install cask
-
-brew update
-```
-
-## Install Brew Apps
-
-- Install core applicaitons.
-**TODO : brew_tools.sh**
-```shell
-curl -L https://raw.githubusercontent.com/tangimds/dotfiles/main/brew_tools.sh | sh
-```
-
-## Install Brew Cask Apps
-
-- Install tools
-**TODO : brewcask_apps.sh**
-```shell
-curl -L https://raw.githubusercontent.com/tangimds/dotfiles/main/brewcask_apps.sh | sh
-```
-
-## Install VSCode (Extensions / Settings / Snippets / Themes / etc )
-
-- Install Visual Studio Code.
-
-```shell
-brew cask install visual-studio-code
-```
-
-- Install *Settings Sync* extension and login with Github account
-
----
-
-## Keeping Things Updated
-
-- Laptop House keeping
-
-```shell
-curl -L  https://raw.githubusercontent.com/tangimds/dotfiles/main/housekeeping.sh | sh
-```
