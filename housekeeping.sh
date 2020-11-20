@@ -70,7 +70,7 @@ echo "${BOLD}${BLUE}Pushing to github${NC}"
 git add .
 git commit -m "✨ update"
 git push
-echo "${BOLD}${BLUE}✨ ALL DONE${NC}"
+echo "${BOLD}${GREEN}✨ ALL DONE${NC}"
 
 # Shows all the outdated cask apps 
 #echo "Printing all apps need to be updated"
