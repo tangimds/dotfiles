@@ -3,7 +3,6 @@
 Follow the [dev-setup](https://github.com/tangimds/dotfiles/blob/main/dev-setup.md) roadmap  
 Find usefull commands [here](https://github.com/tangimds/dotfiles/blob/main/os-x-setup-commands.sh)
 
-
 ## Keeping Things Updated
 
 - Laptop House keeping
@@ -12,13 +11,8 @@ Find usefull commands [here](https://github.com/tangimds/dotfiles/blob/main/os-x
 ./housekeeping.sh
 ```
 
-- Update config .zshrc
-
-```shell
-./update.sh
-```
-
 ---
+
 ## Configure Git Profile
 
 - Configure local Git profile
@@ -50,4 +44,3 @@ ssh-keygen -t rsa -b 2048 -f "id_rsa_github"
 ```
 ssh-keygen -t rsa -b 2048 -f "id_rsa_serv1"
 ```
-

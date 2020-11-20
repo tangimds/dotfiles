@@ -1,0 +1,4 @@
+alfred
+basictex
+react-native-debugger
+vagrant

@@ -6,6 +6,11 @@ BLUE=$(tput setaf 4)
 BOLD=$(tput bold)
 NC=$(tput sgr0)
 
+# Update ./.zshrc
+clear
+echo "${BOLD}${GREEN}Updating .zshrc${NC}"
+cp ~/.zshrc ./.zshrc
+
 # Update brew 
 clear
 echo "${BOLD}${GREEN}Updating brew${NC}"
@@ -35,9 +40,27 @@ sleep 5
 
 # Brew show all outdated brew apps 
 clear
-echo "${BOLD}${GREEN}running brew outdated${NC}"
+echo "${BOLD}${GREEN}Running brew outdated${NC}"
 brew outdated 
 sleep 5
+
+# List of homebrew formulae
+clear
+echo "${BOLD}${GREEN}Running homebrew-formulae ${NC}"
+brew list --formulae >> homebrew-formulae.txt
+sleep 5
+
+# List of homebrew casks
+clear
+echo "${BOLD}${GREEN}Running homebrew-cask ${NC}"
+brew list --cask >> homebrew-cask.txt
+sleep 5
+
+clear
+echo "${BOLD}${GREEN}Pushing to github${NC}"
+git add .
+git commit -m "✨ update"
+git push
 
 # Shows all the outdated cask apps 
 #echo "Printing all apps need to be updated"
