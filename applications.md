@@ -1,0 +1,23 @@
+- [ ] Postico
+- [ ] Cyberduck
+- [ ] Slack
+- [ ] Notion
+- [ ] GitHub desktop
+- [ ] Mattermost
+- [ ] Whatsapp
+- [ ] Mongoldb
+- [ ] Toggle track
+- [ ] Postman
+- [ ] Teams
+- [ ] Android studio
+- [ ] Bit warden
+- [ ] Color picker
+- [ ] Discord
+- [ ] figma
+- [ ] Itsycal
+- [ ] Nordvpn
+- [ ] Omnidisksweeper
+- [ ] Owlocr
+- [ ] Vnc viewer
+- [ ] Rectangle
+- [ ] Spotify
